@@ -5,7 +5,7 @@ var CONFIG = {
     "width": 960,
     "height": 568,
     "scale": 1,
-    "scroll": -50
+    "scroll": -75
   },
   "button": {
     "offset": 100,
@@ -19,7 +19,7 @@ var CONFIG = {
       "gravity": 1200,
       "outkill": true,
       "flap": {
-        "velocity": -150,
+        "velocity": -225,
         "frame": 0,
         "rotate": -40,
         "norotate": true
@@ -49,7 +49,7 @@ var CONFIG = {
     "height": 500,
     "space": 90,
     "offset":  34,
-    "speed": 200,
+    "speed": 275,
     "interval": 1700 
   },
   "score": {
