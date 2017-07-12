@@ -48,7 +48,7 @@ var CONFIG = {
     "width": 90,
     "height": 500,
     "space": 90,
-    "offset": 15,
+    "offset":  23,
     "speed": 200,
     "interval": 1700 
   },
