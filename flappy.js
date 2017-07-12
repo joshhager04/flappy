@@ -5,7 +5,7 @@ var CONFIG = {
     "width": 960,
     "height": 568,
     "scale": 1,
-    "scroll": -75
+    "scroll": -100
   },
   "button": {
     "offset": 100,
@@ -48,7 +48,7 @@ var CONFIG = {
     "width": 90,
     "height": 500,
     "space": 90,
-    "offset":  17,
+    "offset":  40,
     "speed": 275,
     "interval": 1700 
   },
