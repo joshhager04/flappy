@@ -16,10 +16,10 @@ var CONFIG = {
       "width": 41,
       "height": 23,
       "scale": 1,
-      "gravity": 1,
+      "gravity": 1200,
       "outkill": false,
       "flap": {
-        "velocity": -198,
+        "velocity": -199,
         "frame": 0,
         "rotate": -40,
         "norotate": true
