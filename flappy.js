@@ -48,9 +48,9 @@ var CONFIG = {
     "width": 90,
     "height": 500,
     "space": 76,
-    "offset":  37,
+    "offset":  48,
     "speed": 275,
-    "interval": 1300 
+    "interval": 1400 
   },
   "score": {
     "y": 55,
