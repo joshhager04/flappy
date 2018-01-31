@@ -45,12 +45,12 @@ var CONFIG = {
       }
   },
   "pipe": {
-    "width": 75,
-    "height": 450,
-    "space": 135,
+    "width": 90,
+    "height": 500,
+    "space": 125,
     "offset":  48,
     "speed": 275,
-    "interval": 1400 
+    "interval": 1300 
   },
   "score": {
     "y": 55,
