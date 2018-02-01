@@ -50,7 +50,7 @@ var CONFIG = {
     "space": 65,
     "offset":  45,
     "speed": 280,
-    "interval": 975
+    "interval": 1000
   },
   "score": {
     "y": 55,
