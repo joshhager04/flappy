@@ -47,10 +47,10 @@ var CONFIG = {
   "pipe": {
     "width": 90,
     "height": 500,
-    "space": 80,
+    "space": 75,
     "offset":  48,
     "speed": 280,
-    "interval": 1200
+    "interval": 1150
   },
   "score": {
     "y": 55,
