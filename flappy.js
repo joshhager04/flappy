@@ -19,7 +19,7 @@ var CONFIG = {
       "gravity": 1000,
       "outkill": true,
       "flap": {
-        "velocity": -205,
+        "velocity": -255,
         "frame": 0,
         "rotate": -40,
         "norotate": true
