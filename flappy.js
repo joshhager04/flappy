@@ -19,7 +19,7 @@ var CONFIG = {
       "gravity": 1000,
       "outkill": true,
       "flap": {
-        "velocity": -255,
+        "velocity": -240,
         "frame": 0,
         "rotate": -40,
         "norotate": true
@@ -50,7 +50,7 @@ var CONFIG = {
     "space": 60,
     "offset":  45,
     "speed": 280,
-    "interval": 1000
+    "interval": 900
   },
   "score": {
     "y": 55,
