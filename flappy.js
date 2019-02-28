@@ -481,6 +481,7 @@ Flappy.End.prototype = {
 
     game.input.onDown.add(this.start, this);
     game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR).onDown.add(this.start, this);
+    game.input.keyboard.addKey(Phaser.Keyboard.UPARROW).onDown.add(this.flap, this);
     this.gameoverSound = this.game.add.audio('gameover');
     this.gameoverSound.play();
   },
