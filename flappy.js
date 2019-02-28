@@ -101,7 +101,6 @@ var Flapper = function(game) {
   this.body.gravity.y = this.config.flappy.gravity || 1200;
   game.input.onDown.add(this.flap, this);
   game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR).onDown.add(this.flap, this);
-  game.input.keyboard.addKey(Phaser.Keyboard.UPARROW).onDown.add(this.flap, this);
   this.flapSound = this.game.add.audio('flap');
   if (this.config.flappy.animation) {
     var anim = this.animations.add('main');
@@ -482,7 +481,6 @@ Flappy.End.prototype = {
 
     game.input.onDown.add(this.start, this);
     game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR).onDown.add(this.start, this);
-    game.input.keyboard.addKey(Phaser.Keyboard.UPARROW).onDown.add(this.flap, this);
     this.gameoverSound = this.game.add.audio('gameover');
     this.gameoverSound.play();
   },
