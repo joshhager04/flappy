@@ -17,7 +17,7 @@ var CONFIG = {
       "height": 23,
       "scale": 1,
       "gravity": 1250,
-      "outkill": true,
+      "outkill": false,
       "flap": {
         "velocity": -240,
         "frame": 0,
